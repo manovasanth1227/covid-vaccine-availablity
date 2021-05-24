@@ -1,5 +1,5 @@
 # Deploy
-Project has been deployed here => [View Site](https://covid-vaccine-availablity.web.app/)
+Project has been deployed here -> [View Site](https://covid-vaccine-availablity.web.app/)
 
 ## Getting Started with Create React App
 
