@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #eeeeee;
+  min-width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-weight: 500;
+  color: #886a18;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.root {
+  font-weight: 300;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.heading {
+  height: 20vh;
+  display: flex;
+  font-size: 27px;
+  flex-direction: column;
+  padding: 0% 5%;
+  margin-bottom: 0%;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1 {
+  color: #aa8622;
+  margin-top: 5%;
+  font-weight: 300;
+}
+.heading div,
+.strike {
+  height: 3.4px;
+  width: 20%;
+  border-radius: 30%;
+  background-color: #0d9963;
+  margin: 3% 0;
 }
 
-.App-link {
-  color: #61dafb;
+.table {
+  width: 80%;
+  margin: 0% 10%;
+}
+.table h1 {
+  text-align: center;
+  font-weight: 300;
+  font-family: Montserrat;
+  color: #aa8622;
+  padding: 2% 0;
+}
+.table h1:nth-child(1) {
+  color: #0d9963;
+}
+.table .div-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 5%;
+  margin-bottom: 0%;
+  justify-content: space-around;
+  align-items: center;
+}
+.strike {
+  width: 8%;
+  margin: 0;
+  background-color: #aa8622;
+  margin-bottom: 3%;
+}
+@media only screen and (max-width: 600px) {
+  .heading h1 {
+    font-size: 38px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .heading {
+    height: 30vh;
+  }
+  .heading {
+    justify-content: center;
+  }
+  .table {
+    width: 90%;
+    margin: 0% 5%;
+  }
+  .table h1 {
+    font-size: 30px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiPickersToolbar-toolbar {
+  background-color: #aa8622;
 }
