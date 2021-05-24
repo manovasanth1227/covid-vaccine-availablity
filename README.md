@@ -1,4 +1,5 @@
-#Deployed Here --> https://covid-vaccine-availablity.web.app/
+#Deploy
+[View Site](https://covid-vaccine-availablity.web.app/)
 
 # Getting Started with Create React App
 
